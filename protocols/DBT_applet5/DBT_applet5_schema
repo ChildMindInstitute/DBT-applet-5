@@ -1,0 +1,34 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/ChildMindInstitute/DBT_applet5/master/protocols/DBT_applet5/DBT_applet5_context"
+    ],
+    "@type": "reproschema:Protocol",
+    "@id": "DBT_applet5_schema",
+    "skos:prefLabel": "DBT Applet 5",
+    "skos:altLabel": "DBT_applet5_schema",
+    "schema:description": "Record your daily progress with Dialectical Behavorial Therapy",
+    "landingPage": "https://raw.githubusercontent.com/ChildMindInstitute/DBT_applet5/master/README.md",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/DBT_applet5/master/images/png/DBT.png",
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "dbt_daily",
+                "isAbout": "dbt_daily",
+                "isVis": true
+            },
+            {
+                "variableName": "dbt_daily_goals",
+                "isAbout": "dbt_daily_goals",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "dbt_daily",
+            "dbt_daily_goals"
+        ],
+        "shuffle": false
+    }
+}

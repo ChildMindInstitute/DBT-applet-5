@@ -1,0 +1,82 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "dbt_daily": "https://raw.githubusercontent.com/ChildMindInstitute/DBT_applet5/master/activities/dbt_daily/items/",
+        "emotions_instructions": {
+            "@id": "dbt_daily:emotions_instructions",
+            "@type": "@id"
+        },
+        "happiness": {
+            "@id": "dbt_daily:happiness",
+            "@type": "@id"
+        },
+        "sadness": {
+            "@id": "dbt_daily:sadness",
+            "@type": "@id"
+        },
+        "anxiety_fear": {
+            "@id": "dbt_daily:anxiety_fear",
+            "@type": "@id"
+        },
+        "anger": {
+            "@id": "dbt_daily:anger",
+            "@type": "@id"
+        },
+        "shame_guilt": {
+            "@id": "dbt_daily:shame_guilt",
+            "@type": "@id"
+        },
+        "target_behaviors_instructions": {
+            "@id": "dbt_daily:target_behaviors_instructions",
+            "@type": "@id"
+        },
+        "suicide_urges": {
+            "@id": "dbt_daily:suicide_urges",
+            "@type": "@id"
+        },
+        "suicide_act": {
+            "@id": "dbt_daily:suicide_act",
+            "@type": "@id"
+        },
+        "drugs_urges": {
+            "@id": "dbt_daily:drugs_urges",
+            "@type": "@id"
+        },
+        "drugs_act": {
+            "@id": "dbt_daily:drugs_act",
+            "@type": "@id"
+        },
+        "alcohol_urges": {
+            "@id": "dbt_daily:alcohol_urges",
+            "@type": "@id"
+        },
+        "alcohol_act": {
+            "@id": "dbt_daily:alcohol_act",
+            "@type": "@id"
+        },
+        "lying_urges": {
+            "@id": "dbt_daily:lying_urges",
+            "@type": "@id"
+        },
+        "lying_act": {
+            "@id": "dbt_daily:lying_act",
+            "@type": "@id"
+        },
+        "mindfulness_skills": {
+            "@id": "dbt_daily:mindfulness_skills",
+            "@type": "@id"
+        },
+        "interpersonal_skills": {
+            "@id": "dbt_daily:interpersonal_skills",
+            "@type": "@id"
+        },
+        "emotion_regulation": {
+            "@id": "dbt_daily:emotion_regulation",
+            "@type": "@id"
+        },
+        "distress_tolerance": {
+            "@id": "dbt_daily:distress_tolerance",
+            "@type": "@id"
+        }
+    }
+}
